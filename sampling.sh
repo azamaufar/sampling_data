@@ -21,5 +21,5 @@ csvstack data/weather_2014.csv data/weather_2015.csv > data/weather.csv
 rm data/weather_data.xlsx
 
 #sampling pada weather.csv dengan rate 0.3
-cat data/weather.csv | sample -r 0.3 > data/sample_weather.csv
+head data/weather.csv | sample -r 0.3 > data/sample_weather.csv
 
