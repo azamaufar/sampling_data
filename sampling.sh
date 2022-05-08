@@ -7,7 +7,7 @@ wget -P ./data https://github.com/labusiam/dataset/raw/main/weather_data.xlsx
 
 #convert setiap sheet
 
-FILE=/home/azamaufar/latihan_shell/bikin_bash_script/data/weather_data.xlsx
+FILE=/home/azamaufar/sampling_data/data/weather_data.xlsx
 if [[ -f "$FILE" ]]; then
 	echo "file exist"
 	in2csv data/weather_data.xlsx --sheet "weather_2014" > data/weather_2014.csv
