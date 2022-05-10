@@ -24,3 +24,5 @@ rm data/weather_data.xlsx
 cat data/weather.csv | sample -r 0.3 > data/sample_weather.csv
 echo "ini udah tampil kan datanya"
 
+
+echo "aneh, padahal aku maeng nambahno"
