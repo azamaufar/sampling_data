@@ -22,7 +22,3 @@ rm data/weather_data.xlsx
 
 #sampling pada weather.csv dengan rate 0.3
 cat data/weather.csv | sample -r 0.3 > data/sample_weather.csv
-echo "ini udah tampil kan datanya"
-
-
-echo "aneh, padahal aku maeng nambahno"
